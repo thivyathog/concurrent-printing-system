@@ -1,0 +1,233 @@
+[2021-01-04 15:23:52.814]  [PRINTING SYSTEM]  [INFO]  Creating Thread Groups .
+[2021-01-04 15:23:52.868]  [PRINTING SYSTEM]  [INFO]  Student Thread Group Created.
+[2021-01-04 15:23:52.869]  [PRINTING SYSTEM]  [INFO]  Technician Thread Group Created.
+[2021-01-04 15:23:52.871]  [PRINTING SYSTEM]  [INFO]  Initialised PRINTER Resource.
+[2021-01-04 15:23:52.873]  [PRINTING SYSTEM]  [INFO]  Initialised STUDENT James.
+[2021-01-04 15:23:52.873]  [PRINTING SYSTEM]  [INFO]  Initialised STUDENT Harry.
+[2021-01-04 15:23:52.874]  [PRINTING SYSTEM]  [INFO]  Initialised STUDENT Richie.
+[2021-01-04 15:23:52.875]  [PRINTING SYSTEM]  [INFO]  Initialised STUDENT Shantha.
+[2021-01-04 15:23:52.876]  [PRINTING SYSTEM]  [INFO]  Initialised PAPER TECHNICIAN.
+[2021-01-04 15:23:52.877]  [PRINTING SYSTEM]  [INFO]  Initialised TONER TECHNICIAN.
+[2021-01-04 15:23:52.878]  [PRINTING SYSTEM]  [INFO]  Starting all initalised Threads.
+[2021-01-04 15:23:52.881]  [PRINTING SYSTEM]  [INFO]  Started James STUDENT Thread.
+[2021-01-04 15:23:52.882]  [PRINTING SYSTEM]  [INFO]  Started Harry STUDENT Thread.
+[2021-01-04 15:23:52.883]  [PRINTING SYSTEM]  [INFO]  Started Richie STUDENT Thread.
+[2021-01-04 15:23:52.884]  [PRINTING SYSTEM]  [INFO]  Started Shantha STUDENT Thread.
+[2021-01-04 15:23:52.885]  [PRINTING SYSTEM]  [INFO]  Started PAPER TECHNICIAN Thread.
+[2021-01-04 15:23:52.886]  [PRINTING SYSTEM]  [INFO]  Started TONER TECHNICIAN Thread.
+[2021-01-04 15:23:52.887]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2021-01-04 15:23:52.888]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2021-01-04 15:23:52.892]  [STUDENT]  [INFO]  Harry generated Document to print: Document{studentName='Harry', documentName='doc_id_1', numberOfPages=6}.
+[2021-01-04 15:23:52.894]  [STUDENT]  [INFO]  Shantha generated Document to print: Document{studentName='Shantha', documentName='doc_id_1', numberOfPages=11}.
+[2021-01-04 15:23:52.894]  [STUDENT]  [INFO]  James generated Document to print: Document{studentName='James', documentName='doc_id_1', numberOfPages=1}.
+[2021-01-04 15:23:52.895]  [STUDENT]  [INFO]  Richie generated Document to print: Document{studentName='Richie', documentName='doc_id_1', numberOfPages=8}.
+[2021-01-04 15:23:52.896]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=250, toner_level=500, printedDocuments=0}.
+[2021-01-04 15:23:52.897]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:52.898]  [STUDENT]  [INFO]  [James] has requested to print the document: Document{studentName='James', documentName='doc_id_1', numberOfPages=1}.
+[2021-01-04 15:23:52.899]  [STUDENT]  [INFO]  [Shantha] has requested to print the document: Document{studentName='Shantha', documentName='doc_id_1', numberOfPages=11}.
+[2021-01-04 15:23:52.900]  [STUDENT]  [INFO]  [Harry] has requested to print the document: Document{studentName='Harry', documentName='doc_id_1', numberOfPages=6}.
+[2021-01-04 15:23:52.901]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=250, toner_level=500, printedDocuments=0}.
+[2021-01-04 15:23:52.902]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:52.902]  [STUDENT]  [INFO]  [Richie] has requested to print the document: Document{studentName='Richie', documentName='doc_id_1', numberOfPages=8}.
+[2021-01-04 15:23:52.903]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=250, toner_level=500, printedDocuments=0}.
+[2021-01-04 15:23:52.904]  [PRINTER]  [INFO]  Printed Document : Document{studentName='James', documentName='doc_id_1', numberOfPages=1}.
+[2021-01-04 15:23:52.905]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=249, toner_level=499, printedDocuments=1}.
+[2021-01-04 15:23:52.905]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=249, toner_level=499, printedDocuments=1}.
+[2021-01-04 15:23:52.906]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=249, toner_level=499, printedDocuments=1}.
+[2021-01-04 15:23:52.907]  [PRINTER]  [INFO]  Printed Document : Document{studentName='Shantha', documentName='doc_id_1', numberOfPages=11}.
+[2021-01-04 15:23:52.907]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=238, toner_level=488, printedDocuments=2}.
+[2021-01-04 15:23:52.908]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=238, toner_level=488, printedDocuments=2}.
+[2021-01-04 15:23:52.909]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=238, toner_level=488, printedDocuments=2}.
+[2021-01-04 15:23:52.909]  [PRINTER]  [INFO]  Printed Document : Document{studentName='Harry', documentName='doc_id_1', numberOfPages=6}.
+[2021-01-04 15:23:52.910]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=232, toner_level=482, printedDocuments=3}.
+[2021-01-04 15:23:52.911]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=232, toner_level=482, printedDocuments=3}.
+[2021-01-04 15:23:52.912]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=232, toner_level=482, printedDocuments=3}.
+[2021-01-04 15:23:52.912]  [PRINTER]  [INFO]  Printed Document : Document{studentName='Richie', documentName='doc_id_1', numberOfPages=8}.
+[2021-01-04 15:23:52.913]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=224, toner_level=474, printedDocuments=4}.
+[2021-01-04 15:23:52.913]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=224, toner_level=474, printedDocuments=4}.
+[2021-01-04 15:23:52.914]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=224, toner_level=474, printedDocuments=4}.
+[2021-01-04 15:23:52.915]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:52.915]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=224, toner_level=474, printedDocuments=4}.
+[2021-01-04 15:23:52.916]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:52.924]  [STUDENT]  [INFO]  Shantha generated Document to print: Document{studentName='Shantha', documentName='doc_id_2', numberOfPages=10}.
+[2021-01-04 15:23:52.924]  [STUDENT]  [INFO]  [Shantha] has requested to print the document: Document{studentName='Shantha', documentName='doc_id_2', numberOfPages=10}.
+[2021-01-04 15:23:52.925]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=224, toner_level=474, printedDocuments=4}.
+[2021-01-04 15:23:52.926]  [PRINTER]  [INFO]  Printed Document : Document{studentName='Shantha', documentName='doc_id_2', numberOfPages=10}.
+[2021-01-04 15:23:52.926]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=214, toner_level=464, printedDocuments=5}.
+[2021-01-04 15:23:52.927]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=214, toner_level=464, printedDocuments=5}.
+[2021-01-04 15:23:52.927]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=214, toner_level=464, printedDocuments=5}.
+[2021-01-04 15:23:52.928]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:52.928]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=214, toner_level=464, printedDocuments=5}.
+[2021-01-04 15:23:52.929]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:53.055]  [STUDENT]  [INFO]  James generated Document to print: Document{studentName='James', documentName='doc_id_2', numberOfPages=9}.
+[2021-01-04 15:23:53.056]  [STUDENT]  [INFO]  [James] has requested to print the document: Document{studentName='James', documentName='doc_id_2', numberOfPages=9}.
+[2021-01-04 15:23:53.056]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=214, toner_level=464, printedDocuments=5}.
+[2021-01-04 15:23:53.057]  [PRINTER]  [INFO]  Printed Document : Document{studentName='James', documentName='doc_id_2', numberOfPages=9}.
+[2021-01-04 15:23:53.058]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=205, toner_level=455, printedDocuments=6}.
+[2021-01-04 15:23:53.059]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=205, toner_level=455, printedDocuments=6}.
+[2021-01-04 15:23:53.059]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=205, toner_level=455, printedDocuments=6}.
+[2021-01-04 15:23:53.060]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:53.061]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=205, toner_level=455, printedDocuments=6}.
+[2021-01-04 15:23:53.062]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:53.190]  [STUDENT]  [INFO]  Richie generated Document to print: Document{studentName='Richie', documentName='doc_id_2', numberOfPages=15}.
+[2021-01-04 15:23:53.190]  [STUDENT]  [INFO]  [Richie] has requested to print the document: Document{studentName='Richie', documentName='doc_id_2', numberOfPages=15}.
+[2021-01-04 15:23:53.191]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=205, toner_level=455, printedDocuments=6}.
+[2021-01-04 15:23:53.191]  [PRINTER]  [INFO]  Printed Document : Document{studentName='Richie', documentName='doc_id_2', numberOfPages=15}.
+[2021-01-04 15:23:53.192]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=190, toner_level=440, printedDocuments=7}.
+[2021-01-04 15:23:53.192]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=190, toner_level=440, printedDocuments=7}.
+[2021-01-04 15:23:53.193]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2021-01-04 15:23:53.194]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='LaserPrinter1120J', paper_level=240, toner_level=440, printedDocuments=7}.
+[2021-01-04 15:23:53.194]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=240, toner_level=440, printedDocuments=7}.
+[2021-01-04 15:23:53.195]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=240, toner_level=440, printedDocuments=7}.
+[2021-01-04 15:23:53.195]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:53.619]  [STUDENT]  [INFO]  Richie generated Document to print: Document{studentName='Richie', documentName='doc_id_3', numberOfPages=11}.
+[2021-01-04 15:23:53.619]  [STUDENT]  [INFO]  [Richie] has requested to print the document: Document{studentName='Richie', documentName='doc_id_3', numberOfPages=11}.
+[2021-01-04 15:23:53.620]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=240, toner_level=440, printedDocuments=7}.
+[2021-01-04 15:23:53.622]  [PRINTER]  [INFO]  Printed Document : Document{studentName='Richie', documentName='doc_id_3', numberOfPages=11}.
+[2021-01-04 15:23:53.622]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=229, toner_level=429, printedDocuments=8}.
+[2021-01-04 15:23:53.623]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=229, toner_level=429, printedDocuments=8}.
+[2021-01-04 15:23:53.623]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=229, toner_level=429, printedDocuments=8}.
+[2021-01-04 15:23:53.624]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:53.701]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2021-01-04 15:23:53.701]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=229, toner_level=429, printedDocuments=8}.
+[2021-01-04 15:23:53.702]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:53.839]  [STUDENT]  [INFO]  Shantha generated Document to print: Document{studentName='Shantha', documentName='doc_id_3', numberOfPages=16}.
+[2021-01-04 15:23:53.839]  [STUDENT]  [INFO]  [Shantha] has requested to print the document: Document{studentName='Shantha', documentName='doc_id_3', numberOfPages=16}.
+[2021-01-04 15:23:53.840]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=229, toner_level=429, printedDocuments=8}.
+[2021-01-04 15:23:53.841]  [PRINTER]  [INFO]  Printed Document : Document{studentName='Shantha', documentName='doc_id_3', numberOfPages=16}.
+[2021-01-04 15:23:53.841]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=213, toner_level=413, printedDocuments=9}.
+[2021-01-04 15:23:53.842]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=213, toner_level=413, printedDocuments=9}.
+[2021-01-04 15:23:53.842]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=213, toner_level=413, printedDocuments=9}.
+[2021-01-04 15:23:53.843]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:53.843]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=213, toner_level=413, printedDocuments=9}.
+[2021-01-04 15:23:53.844]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:53.882]  [STUDENT]  [INFO]  Harry generated Document to print: Document{studentName='Harry', documentName='doc_id_2', numberOfPages=6}.
+[2021-01-04 15:23:53.882]  [STUDENT]  [INFO]  [Harry] has requested to print the document: Document{studentName='Harry', documentName='doc_id_2', numberOfPages=6}.
+[2021-01-04 15:23:53.883]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=213, toner_level=413, printedDocuments=9}.
+[2021-01-04 15:23:53.883]  [PRINTER]  [INFO]  Printed Document : Document{studentName='Harry', documentName='doc_id_2', numberOfPages=6}.
+[2021-01-04 15:23:53.884]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=207, toner_level=407, printedDocuments=10}.
+[2021-01-04 15:23:53.884]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=207, toner_level=407, printedDocuments=10}.
+[2021-01-04 15:23:53.885]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=207, toner_level=407, printedDocuments=10}.
+[2021-01-04 15:23:53.885]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:53.886]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=207, toner_level=407, printedDocuments=10}.
+[2021-01-04 15:23:53.886]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:53.931]  [STUDENT]  [INFO]  Harry generated Document to print: Document{studentName='Harry', documentName='doc_id_3', numberOfPages=5}.
+[2021-01-04 15:23:53.932]  [STUDENT]  [INFO]  [Harry] has requested to print the document: Document{studentName='Harry', documentName='doc_id_3', numberOfPages=5}.
+[2021-01-04 15:23:53.932]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=207, toner_level=407, printedDocuments=10}.
+[2021-01-04 15:23:53.933]  [PRINTER]  [INFO]  Printed Document : Document{studentName='Harry', documentName='doc_id_3', numberOfPages=5}.
+[2021-01-04 15:23:53.933]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=202, toner_level=402, printedDocuments=11}.
+[2021-01-04 15:23:53.934]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=202, toner_level=402, printedDocuments=11}.
+[2021-01-04 15:23:53.935]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=202, toner_level=402, printedDocuments=11}.
+[2021-01-04 15:23:53.935]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:53.936]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=202, toner_level=402, printedDocuments=11}.
+[2021-01-04 15:23:53.936]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:54.028]  [STUDENT]  [INFO]  James generated Document to print: Document{studentName='James', documentName='doc_id_3', numberOfPages=14}.
+[2021-01-04 15:23:54.028]  [STUDENT]  [INFO]  [James] has requested to print the document: Document{studentName='James', documentName='doc_id_3', numberOfPages=14}.
+[2021-01-04 15:23:54.029]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=202, toner_level=402, printedDocuments=11}.
+[2021-01-04 15:23:54.030]  [PRINTER]  [INFO]  Printed Document : Document{studentName='James', documentName='doc_id_3', numberOfPages=14}.
+[2021-01-04 15:23:54.031]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=188, toner_level=388, printedDocuments=12}.
+[2021-01-04 15:23:54.031]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=188, toner_level=388, printedDocuments=12}.
+[2021-01-04 15:23:54.032]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=188, toner_level=388, printedDocuments=12}.
+[2021-01-04 15:23:54.033]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:54.033]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2021-01-04 15:23:54.034]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='LaserPrinter1120J', paper_level=238, toner_level=388, printedDocuments=12}.
+[2021-01-04 15:23:54.034]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=238, toner_level=388, printedDocuments=12}.
+[2021-01-04 15:23:54.035]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=238, toner_level=388, printedDocuments=12}.
+[2021-01-04 15:23:54.036]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:54.101]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2021-01-04 15:23:54.102]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=238, toner_level=388, printedDocuments=12}.
+[2021-01-04 15:23:54.102]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:54.622]  [STUDENT]  [INFO]  Richie generated Document to print: Document{studentName='Richie', documentName='doc_id_4', numberOfPages=8}.
+[2021-01-04 15:23:54.623]  [STUDENT]  [INFO]  [Richie] has requested to print the document: Document{studentName='Richie', documentName='doc_id_4', numberOfPages=8}.
+[2021-01-04 15:23:54.623]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=238, toner_level=388, printedDocuments=12}.
+[2021-01-04 15:23:54.624]  [PRINTER]  [INFO]  Printed Document : Document{studentName='Richie', documentName='doc_id_4', numberOfPages=8}.
+[2021-01-04 15:23:54.625]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=230, toner_level=380, printedDocuments=13}.
+[2021-01-04 15:23:54.626]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=230, toner_level=380, printedDocuments=13}.
+[2021-01-04 15:23:54.626]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=230, toner_level=380, printedDocuments=13}.
+[2021-01-04 15:23:54.627]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:54.628]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=230, toner_level=380, printedDocuments=13}.
+[2021-01-04 15:23:54.629]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:54.663]  [STUDENT]  [INFO]  James generated Document to print: Document{studentName='James', documentName='doc_id_4', numberOfPages=1}.
+[2021-01-04 15:23:54.664]  [STUDENT]  [INFO]  [James] has requested to print the document: Document{studentName='James', documentName='doc_id_4', numberOfPages=1}.
+[2021-01-04 15:23:54.664]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=230, toner_level=380, printedDocuments=13}.
+[2021-01-04 15:23:54.665]  [PRINTER]  [INFO]  Printed Document : Document{studentName='James', documentName='doc_id_4', numberOfPages=1}.
+[2021-01-04 15:23:54.666]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=229, toner_level=379, printedDocuments=14}.
+[2021-01-04 15:23:54.667]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=229, toner_level=379, printedDocuments=14}.
+[2021-01-04 15:23:54.668]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=229, toner_level=379, printedDocuments=14}.
+[2021-01-04 15:23:54.668]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:54.669]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=229, toner_level=379, printedDocuments=14}.
+[2021-01-04 15:23:54.670]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:54.680]  [STUDENT]  [INFO]  Shantha generated Document to print: Document{studentName='Shantha', documentName='doc_id_4', numberOfPages=9}.
+[2021-01-04 15:23:54.681]  [STUDENT]  [INFO]  [Shantha] has requested to print the document: Document{studentName='Shantha', documentName='doc_id_4', numberOfPages=9}.
+[2021-01-04 15:23:54.681]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=229, toner_level=379, printedDocuments=14}.
+[2021-01-04 15:23:54.682]  [PRINTER]  [INFO]  Printed Document : Document{studentName='Shantha', documentName='doc_id_4', numberOfPages=9}.
+[2021-01-04 15:23:54.683]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=220, toner_level=370, printedDocuments=15}.
+[2021-01-04 15:23:54.684]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=220, toner_level=370, printedDocuments=15}.
+[2021-01-04 15:23:54.685]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=220, toner_level=370, printedDocuments=15}.
+[2021-01-04 15:23:54.685]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:54.686]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=220, toner_level=370, printedDocuments=15}.
+[2021-01-04 15:23:54.687]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:54.854]  [STUDENT]  [INFO]  Harry generated Document to print: Document{studentName='Harry', documentName='doc_id_4', numberOfPages=11}.
+[2021-01-04 15:23:54.855]  [STUDENT]  [INFO]  [Harry] has requested to print the document: Document{studentName='Harry', documentName='doc_id_4', numberOfPages=11}.
+[2021-01-04 15:23:54.856]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=220, toner_level=370, printedDocuments=15}.
+[2021-01-04 15:23:54.856]  [PRINTER]  [INFO]  Printed Document : Document{studentName='Harry', documentName='doc_id_4', numberOfPages=11}.
+[2021-01-04 15:23:54.857]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=209, toner_level=359, printedDocuments=16}.
+[2021-01-04 15:23:54.858]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=209, toner_level=359, printedDocuments=16}.
+[2021-01-04 15:23:54.859]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=209, toner_level=359, printedDocuments=16}.
+[2021-01-04 15:23:54.859]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:54.860]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=209, toner_level=359, printedDocuments=16}.
+[2021-01-04 15:23:54.861]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:54.880]  [STUDENT]  [INFO]  Harry generated Document to print: Document{studentName='Harry', documentName='doc_id_5', numberOfPages=8}.
+[2021-01-04 15:23:54.881]  [STUDENT]  [INFO]  [Harry] has requested to print the document: Document{studentName='Harry', documentName='doc_id_5', numberOfPages=8}.
+[2021-01-04 15:23:54.881]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=209, toner_level=359, printedDocuments=16}.
+[2021-01-04 15:23:54.882]  [PRINTER]  [INFO]  Printed Document : Document{studentName='Harry', documentName='doc_id_5', numberOfPages=8}.
+[2021-01-04 15:23:54.883]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=201, toner_level=351, printedDocuments=17}.
+[2021-01-04 15:23:54.884]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=201, toner_level=351, printedDocuments=17}.
+[2021-01-04 15:23:54.884]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=201, toner_level=351, printedDocuments=17}.
+[2021-01-04 15:23:54.885]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:54.886]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=201, toner_level=351, printedDocuments=17}.
+[2021-01-04 15:23:54.887]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:55.225]  [STUDENT]  [INFO]  Richie generated Document to print: Document{studentName='Richie', documentName='doc_id_5', numberOfPages=2}.
+[2021-01-04 15:23:55.225]  [STUDENT]  [INFO]  [Richie] has requested to print the document: Document{studentName='Richie', documentName='doc_id_5', numberOfPages=2}.
+[2021-01-04 15:23:55.226]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=201, toner_level=351, printedDocuments=17}.
+[2021-01-04 15:23:55.226]  [PRINTER]  [INFO]  Printed Document : Document{studentName='Richie', documentName='doc_id_5', numberOfPages=2}.
+[2021-01-04 15:23:55.227]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=199, toner_level=349, printedDocuments=18}.
+[2021-01-04 15:23:55.227]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=199, toner_level=349, printedDocuments=18}.
+[2021-01-04 15:23:55.228]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=199, toner_level=349, printedDocuments=18}.
+[2021-01-04 15:23:55.228]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:55.229]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2021-01-04 15:23:55.229]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='LaserPrinter1120J', paper_level=249, toner_level=349, printedDocuments=18}.
+[2021-01-04 15:23:55.230]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=249, toner_level=349, printedDocuments=18}.
+[2021-01-04 15:23:55.230]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=249, toner_level=349, printedDocuments=18}.
+[2021-01-04 15:23:55.231]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:55.231]  [STUDENT]  [INFO]  Shantha generated Document to print: Document{studentName='Shantha', documentName='doc_id_5', numberOfPages=19}.
+[2021-01-04 15:23:55.232]  [STUDENT]  [INFO]  [Shantha] has requested to print the document: Document{studentName='Shantha', documentName='doc_id_5', numberOfPages=19}.
+[2021-01-04 15:23:55.232]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=249, toner_level=349, printedDocuments=18}.
+[2021-01-04 15:23:55.233]  [PRINTER]  [INFO]  Printed Document : Document{studentName='Shantha', documentName='doc_id_5', numberOfPages=19}.
+[2021-01-04 15:23:55.233]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=230, toner_level=330, printedDocuments=19}.
+[2021-01-04 15:23:55.234]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=230, toner_level=330, printedDocuments=19}.
+[2021-01-04 15:23:55.234]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=230, toner_level=330, printedDocuments=19}.
+[2021-01-04 15:23:55.234]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:55.383]  [STUDENT]  [INFO]  James generated Document to print: Document{studentName='James', documentName='doc_id_5', numberOfPages=17}.
+[2021-01-04 15:23:55.383]  [STUDENT]  [INFO]  [James] has requested to print the document: Document{studentName='James', documentName='doc_id_5', numberOfPages=17}.
+[2021-01-04 15:23:55.384]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=230, toner_level=330, printedDocuments=19}.
+[2021-01-04 15:23:55.384]  [PRINTER]  [INFO]  Printed Document : Document{studentName='James', documentName='doc_id_5', numberOfPages=17}.
+[2021-01-04 15:23:55.385]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=213, toner_level=313, printedDocuments=20}.
+[2021-01-04 15:23:55.385]  [STUDENT]  [INFO]  Printer current status: Printer{printerID='LaserPrinter1120J', paper_level=213, toner_level=313, printedDocuments=20}.
+[2021-01-04 15:23:55.386]  [PRINTER]  [INFO]  Printer{printerID='LaserPrinter1120J', paper_level=213, toner_level=313, printedDocuments=20}.
+[2021-01-04 15:23:55.386]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2021-01-04 15:23:55.764]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : James.
+[2021-01-04 15:23:55.765]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Harry.
+[2021-01-04 15:23:55.896]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Richie.
+[2021-01-04 15:23:56.067]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Shantha.
+[2021-01-04 15:23:56.113]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Paper Technician Jack.
+[2021-01-04 15:24:00.389]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2021-01-04 15:24:00.391]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='LaserPrinter1120J', paper_level=213, toner_level=313, printedDocuments=20}.
+[2021-01-04 15:24:00.482]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2021-01-04 15:24:00.483]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2021-01-04 15:24:00.484]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='LaserPrinter1120J', paper_level=213, toner_level=313, printedDocuments=20}.
+[2021-01-04 15:24:01.213]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2021-01-04 15:24:01.214]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2021-01-04 15:24:01.215]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='LaserPrinter1120J', paper_level=213, toner_level=313, printedDocuments=20}.
+[2021-01-04 15:24:02.107]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Toner Technician Tom.
+[2021-01-04 15:24:02.118]  [PRINTING SYSTEM]  [INFO]  All Tasks successfully Completed ,Total Number of pages printed : 187, Final Status of Printer{printerID='LaserPrinter1120J', paper_level=213, toner_level=313, printedDocuments=20}.

@@ -1,0 +1,30 @@
+const MAX_PAPERSHEETS = 3 // Maximum count of sheets in a printer
+const MIN_PAPERSHEETS = 1 // Min count of sheets in a printer
+const MIN_DOCUMENT = 1 // Min Document count
+
+//common printer actions
+set ACTIONS_PRINTER = { acquirePrintDoc, print, acquireRefill, refill, release }
+
+//printer process
+PRINTER( PAPER_COUNT = MAX_PAPERSHEETS ) = PRINTER[PAPER_COUNT],
+PRINTER [d : 0.. MAX_PAPERSHEETS]= 
+				if ( d >= MIN_PAPERSHEETS ) 
+				then ( acquirePrintDoc-> print -> releasePrinter -> PRINTER[d-1] )
+				else ( acquireRefill -> refill -> releaseRefill -> PRINTER[MAX_PAPERSHEETS] 
+) / { release/releaseRefill , release/releasePrinter } .
+
+//student process
+STUDENT(DOCUMENT_COUNT=MIN_DOCUMENT) = STUDENT[DOCUMENT_COUNT],
+STUDENT[i:0..DOCUMENT_COUNT]= if (i>0) //doesn't acquire printer if there is no document to print
+							  then ( acquirePrintDoc -> print[i] -> (  
+										when (i > MIN_DOCUMENT) releasePrinter -> STUDENT[i-1]  //guarded condition for printer releasing 
+							  			| when ( i <= MIN_DOCUMENT)  releasePrinter -> END )	 
+		
+) + ACTIONS_PRINTER  / {release/releasePrinter , print/print[i:0..DOCUMENT_COUNT]} . //renaming print[i] actions to print 
+
+
+//technician process
+TECHNICIAN= ( acquireRefill -> refill -> releaseRefill -> TECHNICIAN | wait -> TECHNICIAN) + ACTIONS_PRINTER / { release/releaseRefill } .
+
+//composite process
+|| PRINTING_SYSTEM = ( st3: STUDENT(3) || st2: STUDENT(2) || t: TECHNICIAN || { st3, st2, t } :: PRINTER ) .
